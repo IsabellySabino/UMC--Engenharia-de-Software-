@@ -1,11 +1,11 @@
 def area(base, altura):
-     print(f'A área é igual a {base} x {altura} = {areas}')
+     print(f'A área é igual a {base} x {altura} = {base * altura}')
      return base * altura 
 
 
 base = float(input('Digite o valor da base: '))
 altura = float(input('Digite o valor da altura: '))
-areas = base * altura
 
 resultado = area(base, altura)
-print(area)
+areas = resultado
+print(resultado)
